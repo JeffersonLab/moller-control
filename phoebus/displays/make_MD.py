@@ -19,7 +19,8 @@ logger.info("Turn ON Seg");
         """
         for pv_name in pv_list:
             # pv_name, value, timeout
-            cmd_str = "PVUtil.writePV(%s, 1, 1000)" % pv_name
+            pv = '"%s:Pw"' % pv_name
+            cmd_str = "PVUtil.writePV(%s, 1, 1000)" % pv
             js_code = js_code + "\n" + cmd_str
 
         return js_code
@@ -37,7 +38,7 @@ logger.info("Turn ON Seg");
 def make_button_seg_OFF(index, x, y, pv_list):
     # Create segment ON button
 
-    name = "Action_Button_ON_" + str(index)
+    name = "Action_Button_OFF_" + str(index)
     width = 20
     height = 20
 
@@ -52,7 +53,8 @@ logger.info("Turn OFF Seg");
         """
         for pv_name in pv_list:
             # pv_name, value, timeout
-            cmd_str = "PVUtil.writePV(%s, 0, 1000)" % pv_name
+            pv = '"%s:Pw"' % pv_name
+            cmd_str = "PVUtil.writePV(%s, 0, 1000)" % pv
             js_code = js_code + "\n" + cmd_str
 
         return js_code
