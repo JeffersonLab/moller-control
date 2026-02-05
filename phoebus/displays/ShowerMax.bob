@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>ShowerMax</name>
+  <width>1150</width>
+  <height>970</height>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Shower Max LV Controls and Monitoring</text>
+    <x>110</x>
+    <y>20</y>
+    <width>550</width>
+    <height>31</height>
+    <font>
+      <font name="Header 1" family="Liberation Sans" style="BOLD" size="22.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>sys://time</pv_name>
+    <x>39</x>
+    <y>550</y>
+    <width>133</width>
+    <background_color>
+      <color name="Header_ForeGround" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button</name>
+    <text>Expert Screen</text>
+    <x>650</x>
+    <y>20</y>
+    <width>140</width>
+    <height>32</height>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_1</name>
+    <x>110</x>
+    <y>780</y>
+    <width>1</width>
+    <height>1</height>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <file>ShowerMax-Table.bob</file>
+    <x>480</x>
+    <y>80</y>
+    <width>640</width>
+    <height>870</height>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>Picture</name>
+    <file>ShowerMax_CAD.png</file>
+    <x>39</x>
+    <y>112</y>
+    <width>420</width>
+    <height>400</height>
+    <opacity>0.8</opacity>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_0</name>
+    <pv_name>MollerPS13:08:000:Pw</pv_name>
+    <bit>0</bit>
+    <x>30</x>
+    <y>304</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_1</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>33</x>
+    <y>258</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_2</name>
+    <pv_name>MollerPS13:08:002:Pw</pv_name>
+    <bit>0</bit>
+    <x>48</x>
+    <y>214</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_3</name>
+    <pv_name>MollerPS13:08:003:Pw</pv_name>
+    <bit>0</bit>
+    <x>73</x>
+    <y>172</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_4</name>
+    <pv_name>MollerPS13:08:004:Pw</pv_name>
+    <bit>0</bit>
+    <x>109</x>
+    <y>142</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_5</name>
+    <pv_name>MollerPS13:08:005:Pw</pv_name>
+    <bit>0</bit>
+    <x>150</x>
+    <y>119</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_6</name>
+    <pv_name>MollerPS13:08:006:Pw</pv_name>
+    <bit>0</bit>
+    <x>193</x>
+    <y>103</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_7</name>
+    <pv_name>MollerPS13:08:007:Pw</pv_name>
+    <bit>0</bit>
+    <x>240</x>
+    <y>100</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_8</name>
+    <pv_name>MollerPS13:09:000:Pw</pv_name>
+    <bit>0</bit>
+    <x>289</x>
+    <y>106</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_9</name>
+    <pv_name>MollerPS13:09:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>332</x>
+    <y>119</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_10</name>
+    <pv_name>MollerPS13:09:002:Pw</pv_name>
+    <bit>0</bit>
+    <x>369</x>
+    <y>144</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_11</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>402</x>
+    <y>175</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_12</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>427</x>
+    <y>214</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_13</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>439</x>
+    <y>258</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_14</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>443</x>
+    <y>304</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_15</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>441</x>
+    <y>352</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_16</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>427</x>
+    <y>392</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_17</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>402</x>
+    <y>432</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_18</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>368</x>
+    <y>460</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_19</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>333</x>
+    <y>486</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_20</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>288</x>
+    <y>500</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_21</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>241</x>
+    <y>505</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_22</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>194</x>
+    <y>500</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_23</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>150</x>
+    <y>485</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_24</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>-10</bit>
+    <x>111</x>
+    <y>462</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_25</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>78</x>
+    <y>432</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_26</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>55</x>
+    <y>392</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_27</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <bit>0</bit>
+    <x>34</x>
+    <y>352</y>
+    <width>25</width>
+    <height>25</height>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0">
+      </color>
+    </off_color>
+    <line_color>
+      <color name="Transparent" red="255" green="255" blue="255" alpha="0">
+      </color>
+    </line_color>
+    <actions>
+      <action type="write_pv">
+        <description>PW-ON</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+      </action>
+      <action type="write_pv">
+        <description>PW-OFF</description>
+        <pv_name>$(pv_name)</pv_name>
+        <value>0</value>
+      </action>
+    </actions>
+  </widget>
+</display>
