@@ -896,23 +896,22 @@ importClass(org.csstudio.display.builder.runtime.script.ScriptUtil);
 logger = ScriptUtil.getLogger();
 logger.info("Turn All ON - Shower Max");
 /* widget.setPropertyValue("text", PVUtil.getString(pvs[0])); */
-
-PVUtil.writePV(MollerPS13:08:000, 1, 1000)
-PVUtil.writePV(MollerPS13:08:001, 1, 1000)
-PVUtil.writePV(MollerPS13:08:002, 1, 1000)
-PVUtil.writePV(MollerPS13:08:003, 1, 1000)
-PVUtil.writePV(MollerPS13:08:004, 1, 1000)
-PVUtil.writePV(MollerPS13:08:005, 1, 1000)
-PVUtil.writePV(MollerPS13:08:006, 1, 1000)
-PVUtil.writePV(MollerPS13:08:007, 1, 1000)
-PVUtil.writePV(MollerPS13:09:000, 1, 1000)
-PVUtil.writePV(MollerPS13:09:001, 1, 1000)
-PVUtil.writePV(MollerPS13:09:002, 1, 1000)
-PVUtil.writePV(MollerPS13:09:003, 1, 1000)
-PVUtil.writePV(MollerPS13:09:004, 1, 1000)
-PVUtil.writePV(MollerPS13:09:005, 1, 1000)
-PVUtil.writePV(MollerPS13:09:006, 1, 1000)
-PVUtil.writePV(MollerPS13:09:007, 1, 1000)]]></text>
+PVUtil.writePV("MollerPS13:08:000:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:08:001:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:08:002:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:08:003:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:08:004:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:08:005:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:08:006:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:08:007:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:09:000:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:09:001:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:09:002:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:09:003:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:09:004:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:09:005:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:09:006:Pw", 1, 1000)
+PVUtil.writePV("MollerPS13:09:007:Pw", 1, 1000)]]></text>
         </script>
       </action>
     </actions>
@@ -934,29 +933,22 @@ importClass(org.csstudio.display.builder.runtime.script.ScriptUtil);
 logger = ScriptUtil.getLogger();
 logger.info("Turn All OFF - Shower Max");
 /* widget.setPropertyValue("text", PVUtil.getString(pvs[0])); */
-/* Embedded javascript */
-importClass(org.csstudio.display.builder.runtime.script.PVUtil);
-importClass(org.csstudio.display.builder.runtime.script.ScriptUtil);
-logger = ScriptUtil.getLogger();
-logger.info("Turn All ON - Shower Max");
-/* widget.setPropertyValue("text", PVUtil.getString(pvs[0])); */
-
-PVUtil.writePV(MollerPS13:08:000, 0, 1000)
-PVUtil.writePV(MollerPS13:08:001, 0, 1000)
-PVUtil.writePV(MollerPS13:08:002, 0, 1000)
-PVUtil.writePV(MollerPS13:08:003, 0, 1000)
-PVUtil.writePV(MollerPS13:08:004, 0, 1000)
-PVUtil.writePV(MollerPS13:08:005, 0, 1000)
-PVUtil.writePV(MollerPS13:08:006, 0, 1000)
-PVUtil.writePV(MollerPS13:08:007, 0, 1000)
-PVUtil.writePV(MollerPS13:09:000, 0, 1000)
-PVUtil.writePV(MollerPS13:09:001, 0, 1000)
-PVUtil.writePV(MollerPS13:09:002, 0, 1000)
-PVUtil.writePV(MollerPS13:09:003, 0, 1000)
-PVUtil.writePV(MollerPS13:09:004, 0, 1000)
-PVUtil.writePV(MollerPS13:09:005, 0, 1000)
-PVUtil.writePV(MollerPS13:09:006, 0, 1000)
-PVUtil.writePV(MollerPS13:09:007, 0, 1000)]]></text>
+PVUtil.writePV("MollerPS13:08:000:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:08:001:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:08:002:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:08:003:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:08:004:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:08:005:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:08:006:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:08:007:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:09:000:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:09:001:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:09:002:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:09:003:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:09:004:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:09:005:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:09:006:Pw", 0, 1000)
+PVUtil.writePV("MollerPS13:09:007:Pw", 0, 1000)]]></text>
         </script>
       </action>
     </actions>
