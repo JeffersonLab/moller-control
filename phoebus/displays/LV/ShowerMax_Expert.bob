@@ -60,7 +60,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display</name>
-    <file>ShowerMax-Table.bob</file>
+    <file>ShowerMax-Table_Expert.bob</file>
     <x>480</x>
     <y>80</y>
     <width>640</width>
