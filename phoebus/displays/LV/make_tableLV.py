@@ -1,5 +1,6 @@
 import os
 import sys
+import argparse
 
 Skeleton_Format=\
 '<?xml version="1.0" encoding="UTF-8"?>\n\
@@ -245,6 +246,21 @@ Label_format=\
     <wrap_words>false</wrap_words>\n\
   </widget>'
 
+PW_button_format=\
+'  <widget type="bool_button" version="2.0.0">\n\
+    <name>this_name</name>\n\
+    <pv_name>this_pv_name</pv_name>\n\
+    <x>xpos</x>\n\
+    <y>ypos</y>\n\
+    <width>52</width>\n\
+    <height>26</height>\n\
+    <off_color>\n\
+     <color name="STOP" red="255" green="0" blue="0">\n\
+     </color>\n\
+    </off_color>\n\
+    <border_alarm_sensitive>false</border_alarm_sensitive>\n\
+  </widget>'
+
 #------------------------------------------------------
 
 def read_map(infile):
@@ -258,6 +274,7 @@ def read_map(infile):
             crate = int(line.split()[1])
             slot = int(line.split()[2])
             channel = int(line.split()[3])
+            sector = line.split()[4]
             pv_name = "MollerPS%d:%02d:%03d" % (crate, slot, channel)
             
             lv_map[str(index)] = {}
@@ -265,15 +282,9 @@ def read_map(infile):
             lv_map[str(index)]["slot"] = slot
             lv_map[str(index)]["channel"] = channel
             lv_map[str(index)]["pv_name"] = pv_name
+            lv_map[str(index)]["sector"] = sector
 
     return lv_map
-
-"""
-NewEntry=VSet_Format.replace("this_name", "Text Entry_0")
-NewEntry=NewEntry.replace("this_pv_name", "MollerPS13:08:000:VSet")
-NewEntry=NewEntry.replace("xpos", "30")
-NewEntry=NewEntry.replace("ypos", "20")
-"""
 
 def add_label(name, ch, x, y, this_format):
     NewEntry = this_format.replace("this_name", name)
@@ -284,6 +295,13 @@ def add_label(name, ch, x, y, this_format):
 
 def add_entry(name, pv_name, x, y, this_format):
     NewEntry = this_format.replace("this_name", name)
+    NewEntry = NewEntry.replace("this_pv_name", pv_name)
+    NewEntry = NewEntry.replace("xpos", str(x))
+    NewEntry = NewEntry.replace("ypos", str(y))
+    return NewEntry
+
+def add_power_button(name, pv_name, x, y):
+    NewEntry = PW_button_format.replace("this_name", name)
     NewEntry = NewEntry.replace("this_pv_name", pv_name)
     NewEntry = NewEntry.replace("xpos", str(x))
     NewEntry = NewEntry.replace("ypos", str(y))
@@ -318,36 +336,83 @@ def get_expert_format(field):
         return VDiff_Format
 
 
-fields = ["V0Set", "VMon", "VDiff", "I0Set", "IMon", "IDiff"]
-xbin = 77
-x0 = [169, 169+xbin, 169+xbin*2, 419, 419+xbin, 419+xbin*2]
-y0 = 68
+def main():
+    argparser = argparse.ArgumentParser(description="Create LV control/monitoring table", usage=get_usage())
+    argparser.add_argument("map_name")
+    argparser.add_argument("out_name")
+    argparser.add_argument("--expert", help="Expert mode table", default=False)
+    args = argparser.parse_args()
 
-lv_map = read_map("LV.txt")
+    # Table contents
+    fields = ["V0Set", "VMon", "VDiff", "I0Set", "IMon", "IDiff"]
+    xbin = 77
+    x0 = [169, 169+xbin, 169+xbin*2, 419, 419+xbin, 419+xbin*2]
+    y0 = 68
+    
+    # Map file
+    ifname = args.map_name
+    lv_map = read_map(ifname)
+    
+    # Output .bob file
+    ofname = args.out_name
+    f = open(ofname, "w")
 
-f = open("ShowerMax-Table.bob", "w")
-f.write(Skeleton_Format)
+    # expoert mode
+    expert_mode = False
+    expert_mode = args.expert
 
-n = 0
-ich = 0
-for index in lv_map:
-    # add text update/entry
-    for i in range(6):
-        name = "Text Entry_" + str(n)
-        pv_name = "%s:%s" % (lv_map[index]["pv_name"], fields[i])
-        xpos  = x0[i]
-        ypos  = y0 + 28*ich
-        fmt = get_format(fields[i])
-        new_textentry = add_entry(name, pv_name, xpos, ypos, fmt)
-        f.write(new_textentry)
+    # Write display outline
+    f.write(Skeleton_Format)
+    
+    # Loop over channels and add widgets
+    n = 0
+    ich = 0
+    for index in lv_map:
+        # add text update/entry
+        for i in range(6):
+            name = "Text Entry_" + str(n)
+            pv_name = "%s:%s" % (lv_map[index]["pv_name"], fields[i])
+            xpos  = x0[i]
+            ypos  = y0 + 28*ich
+            if expert_mode:
+                fmt = get_expert_format(fields[i])
+            else:
+                fmt = get_format(fields[i])
+            new_textentry = add_entry(name, pv_name, xpos, ypos, fmt)
+            f.write(new_textentry)
+                
+            n = n+1
 
-        n = n+1
+        # add channel number label
+        name = "Label_ch" + str(ich+1)
+        new_label = add_label(name, str(ich+1), 51, ypos, Label_format)        
+        f.write(new_label)       
+        
+        # add power on/off button
+        name = "Boolean_Button_" + str(ich+1)
+        pv_name = "%s:Pw" % lv_map[index]["pv_name"]
+        xpos = 96
+        ypos = ypos
+        new_button = add_power_button(name, pv_name, xpos, ypos)
+        f.write(new_button)
+        
+        ich = ich+1
 
-    # add channel number label
-    name = "Label_ch" + str(ich)
-    new_label = add_label(name, str(ich), 51, ypos, Label_format)        
-    f.write(new_label)       
-    ich = ich+1
+    f.write("</display>")
+    f.close()
 
-f.write("</display>")
-f.close()
+def get_usage():
+    return """
+
+    Usage:
+    > python make_tableLV.py <LV map file name> <Output bob file name>
+
+    For expert mode table:
+    > python make_tableLV.py <LV map file name> <Output bob file name> --expert    
+
+    Example:
+    > python make_tableLV.py lvmap_showermax.txt ShowerMax-Table.bob
+    """
+
+if __name__=="__main__":
+    main()
