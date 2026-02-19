@@ -6,8 +6,8 @@
   <widget type="label" version="2.0.0">
     <name>Label</name>
     <text>Shower Max LV Controls and Monitoring</text>
-    <x>110</x>
-    <y>20</y>
+    <x>20</x>
+    <y>23</y>
     <width>550</width>
     <height>31</height>
     <font>
@@ -20,8 +20,8 @@
   <widget type="textupdate" version="2.0.0">
     <name>Text Update</name>
     <pv_name>sys://time</pv_name>
-    <x>39</x>
-    <y>550</y>
+    <x>34</x>
+    <y>540</y>
     <width>133</width>
     <background_color>
       <color name="Header_ForeGround" red="255" green="255" blue="255">
@@ -38,12 +38,17 @@
         <target>replace</target>
       </action>
     </actions>
-    <text>Shift Screen</text>
-    <x>650</x>
-    <y>20</y>
+    <text>EXPERT MODE</text>
+    <x>970</x>
+    <y>30</y>
     <width>140</width>
     <height>32</height>
+    <background_color>
+      <color name="ActiveText" red="255" green="255" blue="0">
+      </color>
+    </background_color>
     <tooltip>$(actions)</tooltip>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>Action Button_1</name>
@@ -55,7 +60,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display</name>
-    <file>ShowerMax-Table_Expert.bob</file>
+    <file>ShowerMax-Table.bob</file>
     <x>480</x>
     <y>80</y>
     <width>640</width>
@@ -64,8 +69,8 @@
   <widget type="picture" version="2.0.0">
     <name>Picture</name>
     <file>ShowerMax_CAD.png</file>
-    <x>39</x>
-    <y>112</y>
+    <x>34</x>
+    <y>102</y>
     <width>420</width>
     <height>400</height>
     <opacity>0.8</opacity>
@@ -74,8 +79,8 @@
     <name>LED_0</name>
     <pv_name>MollerPS13:08:000:Pw</pv_name>
     <bit>0</bit>
-    <x>30</x>
-    <y>304</y>
+    <x>25</x>
+    <y>294</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -103,8 +108,8 @@
     <name>LED_1</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>33</x>
-    <y>258</y>
+    <x>28</x>
+    <y>248</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -132,8 +137,8 @@
     <name>LED_2</name>
     <pv_name>MollerPS13:08:002:Pw</pv_name>
     <bit>0</bit>
-    <x>48</x>
-    <y>214</y>
+    <x>43</x>
+    <y>204</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -161,8 +166,8 @@
     <name>LED_3</name>
     <pv_name>MollerPS13:08:003:Pw</pv_name>
     <bit>0</bit>
-    <x>73</x>
-    <y>172</y>
+    <x>68</x>
+    <y>162</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -190,8 +195,8 @@
     <name>LED_4</name>
     <pv_name>MollerPS13:08:004:Pw</pv_name>
     <bit>0</bit>
-    <x>109</x>
-    <y>142</y>
+    <x>104</x>
+    <y>132</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -219,8 +224,8 @@
     <name>LED_5</name>
     <pv_name>MollerPS13:08:005:Pw</pv_name>
     <bit>0</bit>
-    <x>150</x>
-    <y>119</y>
+    <x>145</x>
+    <y>109</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -248,8 +253,8 @@
     <name>LED_6</name>
     <pv_name>MollerPS13:08:006:Pw</pv_name>
     <bit>0</bit>
-    <x>193</x>
-    <y>103</y>
+    <x>188</x>
+    <y>93</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -277,8 +282,8 @@
     <name>LED_7</name>
     <pv_name>MollerPS13:08:007:Pw</pv_name>
     <bit>0</bit>
-    <x>240</x>
-    <y>100</y>
+    <x>235</x>
+    <y>90</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -306,8 +311,8 @@
     <name>LED_8</name>
     <pv_name>MollerPS13:09:000:Pw</pv_name>
     <bit>0</bit>
-    <x>289</x>
-    <y>106</y>
+    <x>284</x>
+    <y>96</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -335,8 +340,8 @@
     <name>LED_9</name>
     <pv_name>MollerPS13:09:001:Pw</pv_name>
     <bit>0</bit>
-    <x>332</x>
-    <y>119</y>
+    <x>327</x>
+    <y>109</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -364,8 +369,8 @@
     <name>LED_10</name>
     <pv_name>MollerPS13:09:002:Pw</pv_name>
     <bit>0</bit>
-    <x>369</x>
-    <y>144</y>
+    <x>364</x>
+    <y>134</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -393,8 +398,8 @@
     <name>LED_11</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>402</x>
-    <y>175</y>
+    <x>397</x>
+    <y>165</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -422,8 +427,8 @@
     <name>LED_12</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>427</x>
-    <y>214</y>
+    <x>422</x>
+    <y>204</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -451,8 +456,8 @@
     <name>LED_13</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>439</x>
-    <y>258</y>
+    <x>434</x>
+    <y>248</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -480,8 +485,8 @@
     <name>LED_14</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>443</x>
-    <y>304</y>
+    <x>438</x>
+    <y>294</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -509,8 +514,8 @@
     <name>LED_15</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>441</x>
-    <y>352</y>
+    <x>436</x>
+    <y>342</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -538,8 +543,8 @@
     <name>LED_16</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>427</x>
-    <y>392</y>
+    <x>422</x>
+    <y>382</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -567,8 +572,8 @@
     <name>LED_17</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>402</x>
-    <y>432</y>
+    <x>397</x>
+    <y>422</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -596,8 +601,8 @@
     <name>LED_18</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>368</x>
-    <y>460</y>
+    <x>363</x>
+    <y>450</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -625,8 +630,8 @@
     <name>LED_19</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>333</x>
-    <y>486</y>
+    <x>328</x>
+    <y>476</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -654,8 +659,8 @@
     <name>LED_20</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>288</x>
-    <y>500</y>
+    <x>283</x>
+    <y>490</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -683,8 +688,8 @@
     <name>LED_21</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>241</x>
-    <y>505</y>
+    <x>236</x>
+    <y>495</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -712,8 +717,8 @@
     <name>LED_22</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>194</x>
-    <y>500</y>
+    <x>189</x>
+    <y>490</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -741,8 +746,8 @@
     <name>LED_23</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>150</x>
-    <y>485</y>
+    <x>145</x>
+    <y>475</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -770,8 +775,8 @@
     <name>LED_24</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>-10</bit>
-    <x>111</x>
-    <y>462</y>
+    <x>106</x>
+    <y>452</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -799,8 +804,8 @@
     <name>LED_25</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>78</x>
-    <y>432</y>
+    <x>73</x>
+    <y>422</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -828,8 +833,8 @@
     <name>LED_26</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>55</x>
-    <y>392</y>
+    <x>50</x>
+    <y>382</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -857,8 +862,8 @@
     <name>LED_27</name>
     <pv_name>MollerPS13:08:001:Pw</pv_name>
     <bit>0</bit>
-    <x>34</x>
-    <y>352</y>
+    <x>29</x>
+    <y>342</y>
     <width>25</width>
     <height>25</height>
     <off_color>
@@ -881,5 +886,99 @@
         <value>0</value>
       </action>
     </actions>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_2</name>
+    <actions>
+      <action type="execute">
+        <description>Execute Script</description>
+        <script file="EmbeddedJs">
+          <text><![CDATA[/* Embedded javascript */
+importClass(org.csstudio.display.builder.runtime.script.PVUtil);
+importClass(org.csstudio.display.builder.runtime.script.ScriptUtil);
+logger = ScriptUtil.getLogger();
+logger.info("Turn All ON - Shower Max");
+/* widget.setPropertyValue("text", PVUtil.getString(pvs[0])); */
+
+PVUtil.writePV(MollerPS13:08:000, 1, 1000)
+PVUtil.writePV(MollerPS13:08:001, 1, 1000)
+PVUtil.writePV(MollerPS13:08:002, 1, 1000)
+PVUtil.writePV(MollerPS13:08:003, 1, 1000)
+PVUtil.writePV(MollerPS13:08:004, 1, 1000)
+PVUtil.writePV(MollerPS13:08:005, 1, 1000)
+PVUtil.writePV(MollerPS13:08:006, 1, 1000)
+PVUtil.writePV(MollerPS13:08:007, 1, 1000)
+PVUtil.writePV(MollerPS13:09:000, 1, 1000)
+PVUtil.writePV(MollerPS13:09:001, 1, 1000)
+PVUtil.writePV(MollerPS13:09:002, 1, 1000)
+PVUtil.writePV(MollerPS13:09:003, 1, 1000)
+PVUtil.writePV(MollerPS13:09:004, 1, 1000)
+PVUtil.writePV(MollerPS13:09:005, 1, 1000)
+PVUtil.writePV(MollerPS13:09:006, 1, 1000)
+PVUtil.writePV(MollerPS13:09:007, 1, 1000)]]></text>
+        </script>
+      </action>
+    </actions>
+    <text>ALL ON</text>
+    <x>570</x>
+    <y>27</y>
+    <height>32</height>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_3</name>
+    <actions>
+      <action type="execute">
+        <description>Execute Script</description>
+        <script file="EmbeddedJs">
+          <text><![CDATA[/* Embedded javascript */
+importClass(org.csstudio.display.builder.runtime.script.PVUtil);
+importClass(org.csstudio.display.builder.runtime.script.ScriptUtil);
+logger = ScriptUtil.getLogger();
+logger.info("Turn All OFF - Shower Max");
+/* widget.setPropertyValue("text", PVUtil.getString(pvs[0])); */
+/* Embedded javascript */
+importClass(org.csstudio.display.builder.runtime.script.PVUtil);
+importClass(org.csstudio.display.builder.runtime.script.ScriptUtil);
+logger = ScriptUtil.getLogger();
+logger.info("Turn All ON - Shower Max");
+/* widget.setPropertyValue("text", PVUtil.getString(pvs[0])); */
+
+PVUtil.writePV(MollerPS13:08:000, 0, 1000)
+PVUtil.writePV(MollerPS13:08:001, 0, 1000)
+PVUtil.writePV(MollerPS13:08:002, 0, 1000)
+PVUtil.writePV(MollerPS13:08:003, 0, 1000)
+PVUtil.writePV(MollerPS13:08:004, 0, 1000)
+PVUtil.writePV(MollerPS13:08:005, 0, 1000)
+PVUtil.writePV(MollerPS13:08:006, 0, 1000)
+PVUtil.writePV(MollerPS13:08:007, 0, 1000)
+PVUtil.writePV(MollerPS13:09:000, 0, 1000)
+PVUtil.writePV(MollerPS13:09:001, 0, 1000)
+PVUtil.writePV(MollerPS13:09:002, 0, 1000)
+PVUtil.writePV(MollerPS13:09:003, 0, 1000)
+PVUtil.writePV(MollerPS13:09:004, 0, 1000)
+PVUtil.writePV(MollerPS13:09:005, 0, 1000)
+PVUtil.writePV(MollerPS13:09:006, 0, 1000)
+PVUtil.writePV(MollerPS13:09:007, 0, 1000)]]></text>
+        </script>
+      </action>
+    </actions>
+    <text>ALL OFF</text>
+    <x>700</x>
+    <y>27</y>
+    <height>32</height>
+    <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_3</name>
+    <x>965</x>
+    <y>26</y>
+    <width>149</width>
+    <height>40</height>
+    <line_color>
+      <color name="MAJOR" red="255" green="0" blue="0">
+      </color>
+    </line_color>
+    <transparent>true</transparent>
   </widget>
 </display>
