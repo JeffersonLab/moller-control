@@ -34,11 +34,11 @@
     <actions>
       <action type="open_display">
         <description>Open Display</description>
-        <file>ShowerMax_Expert.bob</file>
+        <file>ShowerMax.bob</file>
         <target>replace</target>
       </action>
     </actions>
-    <text>Expert Screen</text>
+    <text>Shift Screen</text>
     <x>650</x>
     <y>20</y>
     <width>140</width>
@@ -55,7 +55,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display</name>
-    <file>ShowerMax-Table.bob</file>
+    <file>ShowerMax-Table_Expert.bob</file>
     <x>480</x>
     <y>80</y>
     <width>640</width>

@@ -236,8 +236,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch0</name>
-    <text>0</text>
+    <name>Label_ch1</name>
+    <text>1</text>
     <x>51</x>
     <y>68</y>
     <width>52</width>
@@ -249,6 +249,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_1</name>
+    <pv_name>MollerPS13:08:000:Pw</pv_name>
+    <x>96</x>
+    <y>68</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_6</name>
     <pv_name>MollerPS13:08:001:V0Set</pv_name>
@@ -302,8 +314,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch1</name>
-    <text>1</text>
+    <name>Label_ch2</name>
+    <text>2</text>
     <x>51</x>
     <y>96</y>
     <width>52</width>
@@ -315,6 +327,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_2</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <x>96</x>
+    <y>96</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_12</name>
     <pv_name>MollerPS13:08:002:V0Set</pv_name>
@@ -368,8 +392,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch2</name>
-    <text>2</text>
+    <name>Label_ch3</name>
+    <text>3</text>
     <x>51</x>
     <y>124</y>
     <width>52</width>
@@ -381,6 +405,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_3</name>
+    <pv_name>MollerPS13:08:002:Pw</pv_name>
+    <x>96</x>
+    <y>124</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_18</name>
     <pv_name>MollerPS13:08:003:V0Set</pv_name>
@@ -434,8 +470,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch3</name>
-    <text>3</text>
+    <name>Label_ch4</name>
+    <text>4</text>
     <x>51</x>
     <y>152</y>
     <width>52</width>
@@ -447,6 +483,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_4</name>
+    <pv_name>MollerPS13:08:003:Pw</pv_name>
+    <x>96</x>
+    <y>152</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_24</name>
     <pv_name>MollerPS13:08:004:V0Set</pv_name>
@@ -500,8 +548,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch4</name>
-    <text>4</text>
+    <name>Label_ch5</name>
+    <text>5</text>
     <x>51</x>
     <y>180</y>
     <width>52</width>
@@ -513,6 +561,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_5</name>
+    <pv_name>MollerPS13:08:004:Pw</pv_name>
+    <x>96</x>
+    <y>180</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_30</name>
     <pv_name>MollerPS13:08:005:V0Set</pv_name>
@@ -566,8 +626,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch5</name>
-    <text>5</text>
+    <name>Label_ch6</name>
+    <text>6</text>
     <x>51</x>
     <y>208</y>
     <width>52</width>
@@ -579,6 +639,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_6</name>
+    <pv_name>MollerPS13:08:005:Pw</pv_name>
+    <x>96</x>
+    <y>208</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_36</name>
     <pv_name>MollerPS13:08:006:V0Set</pv_name>
@@ -632,8 +704,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch6</name>
-    <text>6</text>
+    <name>Label_ch7</name>
+    <text>7</text>
     <x>51</x>
     <y>236</y>
     <width>52</width>
@@ -645,6 +717,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_7</name>
+    <pv_name>MollerPS13:08:006:Pw</pv_name>
+    <x>96</x>
+    <y>236</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_42</name>
     <pv_name>MollerPS13:08:007:V0Set</pv_name>
@@ -698,8 +782,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch7</name>
-    <text>7</text>
+    <name>Label_ch8</name>
+    <text>8</text>
     <x>51</x>
     <y>264</y>
     <width>52</width>
@@ -711,6 +795,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_8</name>
+    <pv_name>MollerPS13:08:007:Pw</pv_name>
+    <x>96</x>
+    <y>264</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_48</name>
     <pv_name>MollerPS13:09:000:V0Set</pv_name>
@@ -764,8 +860,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch8</name>
-    <text>8</text>
+    <name>Label_ch9</name>
+    <text>9</text>
     <x>51</x>
     <y>292</y>
     <width>52</width>
@@ -777,6 +873,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_9</name>
+    <pv_name>MollerPS13:09:000:Pw</pv_name>
+    <x>96</x>
+    <y>292</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_54</name>
     <pv_name>MollerPS13:09:001:V0Set</pv_name>
@@ -830,8 +938,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch9</name>
-    <text>9</text>
+    <name>Label_ch10</name>
+    <text>10</text>
     <x>51</x>
     <y>320</y>
     <width>52</width>
@@ -843,6 +951,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_10</name>
+    <pv_name>MollerPS13:09:001:Pw</pv_name>
+    <x>96</x>
+    <y>320</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_60</name>
     <pv_name>MollerPS13:09:002:V0Set</pv_name>
@@ -896,8 +1016,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch10</name>
-    <text>10</text>
+    <name>Label_ch11</name>
+    <text>11</text>
     <x>51</x>
     <y>348</y>
     <width>52</width>
@@ -909,6 +1029,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_11</name>
+    <pv_name>MollerPS13:09:002:Pw</pv_name>
+    <x>96</x>
+    <y>348</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_66</name>
     <pv_name>MollerPS13:09:003:V0Set</pv_name>
@@ -962,8 +1094,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch11</name>
-    <text>11</text>
+    <name>Label_ch12</name>
+    <text>12</text>
     <x>51</x>
     <y>376</y>
     <width>52</width>
@@ -975,6 +1107,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_12</name>
+    <pv_name>MollerPS13:09:003:Pw</pv_name>
+    <x>96</x>
+    <y>376</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_72</name>
     <pv_name>MollerPS13:09:004:V0Set</pv_name>
@@ -1028,8 +1172,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch12</name>
-    <text>12</text>
+    <name>Label_ch13</name>
+    <text>13</text>
     <x>51</x>
     <y>404</y>
     <width>52</width>
@@ -1041,6 +1185,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_13</name>
+    <pv_name>MollerPS13:09:004:Pw</pv_name>
+    <x>96</x>
+    <y>404</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_78</name>
     <pv_name>MollerPS13:09:005:V0Set</pv_name>
@@ -1094,8 +1250,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch13</name>
-    <text>13</text>
+    <name>Label_ch14</name>
+    <text>14</text>
     <x>51</x>
     <y>432</y>
     <width>52</width>
@@ -1107,6 +1263,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_14</name>
+    <pv_name>MollerPS13:09:005:Pw</pv_name>
+    <x>96</x>
+    <y>432</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_84</name>
     <pv_name>MollerPS13:09:006:V0Set</pv_name>
@@ -1160,8 +1328,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch14</name>
-    <text>14</text>
+    <name>Label_ch15</name>
+    <text>15</text>
     <x>51</x>
     <y>460</y>
     <width>52</width>
@@ -1173,6 +1341,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_15</name>
+    <pv_name>MollerPS13:09:006:Pw</pv_name>
+    <x>96</x>
+    <y>460</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_90</name>
     <pv_name>MollerPS13:09:007:V0Set</pv_name>
@@ -1226,8 +1406,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch15</name>
-    <text>15</text>
+    <name>Label_ch16</name>
+    <text>16</text>
     <x>51</x>
     <y>488</y>
     <width>52</width>
@@ -1239,6 +1419,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_16</name>
+    <pv_name>MollerPS13:09:007:Pw</pv_name>
+    <x>96</x>
+    <y>488</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_96</name>
     <pv_name>MollerPS13:08:000:V0Set</pv_name>
@@ -1292,8 +1484,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch16</name>
-    <text>16</text>
+    <name>Label_ch17</name>
+    <text>17</text>
     <x>51</x>
     <y>516</y>
     <width>52</width>
@@ -1305,6 +1497,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_17</name>
+    <pv_name>MollerPS13:08:000:Pw</pv_name>
+    <x>96</x>
+    <y>516</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_102</name>
     <pv_name>MollerPS13:08:001:V0Set</pv_name>
@@ -1358,8 +1562,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch17</name>
-    <text>17</text>
+    <name>Label_ch18</name>
+    <text>18</text>
     <x>51</x>
     <y>544</y>
     <width>52</width>
@@ -1371,6 +1575,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_18</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <x>96</x>
+    <y>544</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_108</name>
     <pv_name>MollerPS13:08:002:V0Set</pv_name>
@@ -1424,8 +1640,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch18</name>
-    <text>18</text>
+    <name>Label_ch19</name>
+    <text>19</text>
     <x>51</x>
     <y>572</y>
     <width>52</width>
@@ -1437,6 +1653,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_19</name>
+    <pv_name>MollerPS13:08:002:Pw</pv_name>
+    <x>96</x>
+    <y>572</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_114</name>
     <pv_name>MollerPS13:08:003:V0Set</pv_name>
@@ -1490,8 +1718,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch19</name>
-    <text>19</text>
+    <name>Label_ch20</name>
+    <text>20</text>
     <x>51</x>
     <y>600</y>
     <width>52</width>
@@ -1503,6 +1731,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_20</name>
+    <pv_name>MollerPS13:08:003:Pw</pv_name>
+    <x>96</x>
+    <y>600</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_120</name>
     <pv_name>MollerPS13:08:004:V0Set</pv_name>
@@ -1556,8 +1796,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch20</name>
-    <text>20</text>
+    <name>Label_ch21</name>
+    <text>21</text>
     <x>51</x>
     <y>628</y>
     <width>52</width>
@@ -1569,6 +1809,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_21</name>
+    <pv_name>MollerPS13:08:004:Pw</pv_name>
+    <x>96</x>
+    <y>628</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_126</name>
     <pv_name>MollerPS13:08:005:V0Set</pv_name>
@@ -1622,8 +1874,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch21</name>
-    <text>21</text>
+    <name>Label_ch22</name>
+    <text>22</text>
     <x>51</x>
     <y>656</y>
     <width>52</width>
@@ -1635,6 +1887,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_22</name>
+    <pv_name>MollerPS13:08:005:Pw</pv_name>
+    <x>96</x>
+    <y>656</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_132</name>
     <pv_name>MollerPS13:08:006:V0Set</pv_name>
@@ -1688,8 +1952,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch22</name>
-    <text>22</text>
+    <name>Label_ch23</name>
+    <text>23</text>
     <x>51</x>
     <y>684</y>
     <width>52</width>
@@ -1701,6 +1965,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_23</name>
+    <pv_name>MollerPS13:08:006:Pw</pv_name>
+    <x>96</x>
+    <y>684</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_138</name>
     <pv_name>MollerPS13:08:007:V0Set</pv_name>
@@ -1754,8 +2030,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch23</name>
-    <text>23</text>
+    <name>Label_ch24</name>
+    <text>24</text>
     <x>51</x>
     <y>712</y>
     <width>52</width>
@@ -1767,6 +2043,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_24</name>
+    <pv_name>MollerPS13:08:007:Pw</pv_name>
+    <x>96</x>
+    <y>712</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_144</name>
     <pv_name>MollerPS13:09:000:V0Set</pv_name>
@@ -1820,8 +2108,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch24</name>
-    <text>24</text>
+    <name>Label_ch25</name>
+    <text>25</text>
     <x>51</x>
     <y>740</y>
     <width>52</width>
@@ -1833,6 +2121,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_25</name>
+    <pv_name>MollerPS13:09:000:Pw</pv_name>
+    <x>96</x>
+    <y>740</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_150</name>
     <pv_name>MollerPS13:09:001:V0Set</pv_name>
@@ -1886,8 +2186,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch25</name>
-    <text>25</text>
+    <name>Label_ch26</name>
+    <text>26</text>
     <x>51</x>
     <y>768</y>
     <width>52</width>
@@ -1899,6 +2199,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_26</name>
+    <pv_name>MollerPS13:09:001:Pw</pv_name>
+    <x>96</x>
+    <y>768</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_156</name>
     <pv_name>MollerPS13:09:002:V0Set</pv_name>
@@ -1952,8 +2264,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch26</name>
-    <text>26</text>
+    <name>Label_ch27</name>
+    <text>27</text>
     <x>51</x>
     <y>796</y>
     <width>52</width>
@@ -1965,6 +2277,18 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_27</name>
+    <pv_name>MollerPS13:09:002:Pw</pv_name>
+    <x>96</x>
+    <y>796</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget>  <widget type="textupdate" version="2.0.0">
     <name>Text Entry_162</name>
     <pv_name>MollerPS13:09:003:V0Set</pv_name>
@@ -2018,8 +2342,8 @@
     <height>28</height>
     <vertical_alignment>1</vertical_alignment>
   </widget>  <widget type="label" version="2.0.0">
-    <name>Label_ch27</name>
-    <text>27</text>
+    <name>Label_ch28</name>
+    <text>28</text>
     <x>51</x>
     <y>824</y>
     <width>52</width>
@@ -2031,4 +2355,16 @@
     <horizontal_alignment>1</horizontal_alignment>
     <auto_size>true</auto_size>
     <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_28</name>
+    <pv_name>MollerPS13:09:003:Pw</pv_name>
+    <x>96</x>
+    <y>824</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
   </widget></display>
