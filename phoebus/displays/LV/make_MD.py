@@ -1,3 +1,4 @@
+import os, sys
 import phoebusgen.screen
 import phoebusgen.widget as widget
 
@@ -101,7 +102,41 @@ def make_button_ch(index, pv_name, x, y):
 
     return action_button
 
-# Main detector display
+# Read LV map and make a pv list
+def read_map(infile):
+    # Ring : PMT_number
+    pmt = {"1":0, "2":1, "3":2, "4":3, "5C":4, "5L":5, "5R":6, "6":7}
+    d_pv = {}
+    with open(infile, 'r') as f:
+        lines = [x.strip() for x in f.readlines()]
+        for line in lines:
+            if "#" in line:
+                continue
+            else:
+                crate = int(line.split()[0])
+                slot = int(line.split()[1])
+                ch = int(line.split()[2])
+                seg = int(line.split()[3])
+                ring = line.split()[4]
+                pv_name = "MollerPS%02d:%02d:%03d" % (crate, slot, ch)
+                d_pv[(seg, pmt[ring])] = pv_name
+    for key in d_pv:
+        print(key, d_pv[key])
+    return d_pv
+
+def get_ch_name(d_pv, iseg, ipmt):
+    ch_name = d_pv[(iseg, ipmt)]
+    return ch_name
+
+def get_seg_pvlist(d_pv, iseg):
+    pv_list = []
+    for i in range(8):
+        pv_list.append(d_pv[(iseg, i)])
+    return pv_list
+
+#----------------------------------
+#   Main detector display
+#----------------------------------
 my_screen = phoebusgen.screen.Screen("Main Detector Overview")
 
 # Title label
@@ -167,35 +202,8 @@ for seg in range(28):
     label.vertical_alignment_middle()
     my_screen.add_widget(label)
 
-# Read pv list (FIXME: this should be done from input file later)
-# (seg, ring, pmt)
-d_pv = {(0, 0): "MollerPS13:08:000",
-        (0, 1): "MollerPS13:08:001",
-        (0, 2): "MollerPS13:08:002",
-        (0, 3): "MollerPS13:08:003",
-        (0, 4): "MollerPS13:08:004",
-        (0, 5): "MollerPS13:08:005",
-        (0, 6): "MollerPS13:08:006",
-        (0, 7): "MollerPS13:08:007",
-        (1, 0): "MollerPS13:09:000",
-        (1, 1): "MollerPS13:09:001",
-        (1, 2): "MollerPS13:09:002",
-        (1, 3): "MollerPS13:09:003",
-        (1, 4): "MollerPS13:09:004",
-        (1, 5): "MollerPS13:09:005",
-        (1, 6): "MollerPS13:09:006",
-        (1, 7): "MollerPS13:09:007",
-        }
-
-def get_ch_name(iseg, ipmt):
-    ch_name = d_pv[(iseg, ipmt)]
-    return ch_name
-
-def get_seg_pvlist(iseg):
-    pv_list = []
-    for i in range(8):
-        pv_list.append(d_pv[(iseg, i)])
-    return pv_list
+# Read map and make a pv data
+d_pv = read_map(sys.argv[1])
 
 # Channel display
 index = 0
@@ -205,10 +213,10 @@ for seg in range(28):
         y = 90 + ipmt*40
 
         # FIXME: put randmon pv for not yet connected seg
-        if seg < 2:
-            pv_name = get_ch_name(seg,ipmt) + ":Status"
+        if seg < 4:
+            pv_name = get_ch_name(d_pv, seg,ipmt) + ":Status"
         else:
-            pv_name = get_ch_name(1,ipmt) + ":Status"
+            pv_name = get_ch_name(d_pv, 1,ipmt) + ":Status"
 
         led = make_LED(index, pv_name, x, y)
         my_screen.add_widget(led)
@@ -221,7 +229,7 @@ for seg in range(2):
     for ipmt in range(8):
         x = 70 + seg*30
         y = 90 + ipmt*40
-        pv_name = get_ch_name(seg,ipmt) + ":Pw"
+        pv_name = get_ch_name(d_pv, seg,ipmt) + ":Pw"
         button = make_button_ch(index, pv_name, x, y)
         my_screen.add_widget(button)
 
@@ -237,10 +245,10 @@ for i in range(0, 28):
     y2 = 440
 
     # FIXME: put randmon pv for not yet connected seg
-    if i < 2:
-        pv_list = get_seg_pvlist(i)
+    if i < 4:
+        pv_list = get_seg_pvlist(d_pv, i)
     else:
-        pv_list = get_seg_pvlist(1)
+        pv_list = get_seg_pvlist(d_pv, 1)
 
     button1 = make_button_seg_ON(i, x1, y1, pv_list)
     button2 = make_button_seg_OFF(i,x2, y2, pv_list)
@@ -250,7 +258,7 @@ for i in range(0, 28):
 
 # Save to .bob file
 
-print(my_screen)
+#print(my_screen)
 
 with open("MD_overview.bob", "w") as f:
     f.write(str(my_screen))
