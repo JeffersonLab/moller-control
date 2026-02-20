@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <widget type="label" version="2.0.0">
+    <name>Label_238</name>
+    <text>Difference</text>
+    <x>314</x>
+    <y>42</y>
+    <width>69</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_239</name>
+    <text>Voltage</text>
+    <x>245</x>
+    <y>20</y>
+    <width>51</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_240</name>
+    <text>Current</text>
+    <x>498</x>
+    <y>20</y>
+    <width>51</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline</name>
+    <x>166</x>
+    <y>40</y>
+    <width>220</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="220.3826320482337" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_241</name>
+    <text>Difference</text>
+    <x>560</x>
+    <y>42</y>
+    <width>69</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline_1</name>
+    <x>412</x>
+    <y>40</y>
+    <width>220</width>
+    <height>1</height>
+    <points>
+      <point x="0.0" y="0.0">
+      </point>
+      <point x="220.3826320482337" y="0.0">
+      </point>
+    </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="Text" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_242</name>
+    <text>Readback</text>
+    <x>481</x>
+    <y>42</y>
+    <width>67</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_243</name>
+    <text>Set</text>
+    <x>430</x>
+    <y>42</y>
+    <width>22</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_244</name>
+    <text>Power</text>
+    <x>101</x>
+    <y>42</y>
+    <width>43</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_246</name>
+    <text>Channel</text>
+    <x>30</x>
+    <y>42</y>
+    <width>56</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_247</name>
+    <text> Set</text>
+    <x>178</x>
+    <y>42</y>
+    <width>26</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_248</name>
+    <text>Readback</text>
+    <x>234</x>
+    <y>42</y>
+    <width>67</width>
+    <height>16</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_0</name>
+    <pv_name>MollerPS13:08:000:V0Set</pv_name>
+    <x>169</x>
+    <y>68</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_1</name>
+    <pv_name>MollerPS13:08:000:VMon</pv_name>
+    <x>246</x>
+    <y>68</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_2</name>
+    <pv_name>MollerPS13:08:000:VDiff</pv_name>
+    <x>323</x>
+    <y>68</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_3</name>
+    <pv_name>MollerPS13:08:000:I0Set</pv_name>
+    <x>419</x>
+    <y>68</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_4</name>
+    <pv_name>MollerPS13:08:000:IMon</pv_name>
+    <x>496</x>
+    <y>68</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_5</name>
+    <pv_name>MollerPS13:08:000:IDiff</pv_name>
+    <x>573</x>
+    <y>68</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch1</name>
+    <text>1</text>
+    <x>51</x>
+    <y>68</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_1</name>
+    <pv_name>MollerPS13:08:000:Pw</pv_name>
+    <x>96</x>
+    <y>68</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_6</name>
+    <pv_name>MollerPS13:08:001:V0Set</pv_name>
+    <x>169</x>
+    <y>96</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_7</name>
+    <pv_name>MollerPS13:08:001:VMon</pv_name>
+    <x>246</x>
+    <y>96</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_8</name>
+    <pv_name>MollerPS13:08:001:VDiff</pv_name>
+    <x>323</x>
+    <y>96</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_9</name>
+    <pv_name>MollerPS13:08:001:I0Set</pv_name>
+    <x>419</x>
+    <y>96</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_10</name>
+    <pv_name>MollerPS13:08:001:IMon</pv_name>
+    <x>496</x>
+    <y>96</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_11</name>
+    <pv_name>MollerPS13:08:001:IDiff</pv_name>
+    <x>573</x>
+    <y>96</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch2</name>
+    <text>2</text>
+    <x>51</x>
+    <y>96</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_2</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <x>96</x>
+    <y>96</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_12</name>
+    <pv_name>MollerPS13:08:002:V0Set</pv_name>
+    <x>169</x>
+    <y>124</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_13</name>
+    <pv_name>MollerPS13:08:002:VMon</pv_name>
+    <x>246</x>
+    <y>124</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_14</name>
+    <pv_name>MollerPS13:08:002:VDiff</pv_name>
+    <x>323</x>
+    <y>124</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_15</name>
+    <pv_name>MollerPS13:08:002:I0Set</pv_name>
+    <x>419</x>
+    <y>124</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_16</name>
+    <pv_name>MollerPS13:08:002:IMon</pv_name>
+    <x>496</x>
+    <y>124</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_17</name>
+    <pv_name>MollerPS13:08:002:IDiff</pv_name>
+    <x>573</x>
+    <y>124</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch3</name>
+    <text>3</text>
+    <x>51</x>
+    <y>124</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_3</name>
+    <pv_name>MollerPS13:08:002:Pw</pv_name>
+    <x>96</x>
+    <y>124</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_18</name>
+    <pv_name>MollerPS13:08:003:V0Set</pv_name>
+    <x>169</x>
+    <y>152</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_19</name>
+    <pv_name>MollerPS13:08:003:VMon</pv_name>
+    <x>246</x>
+    <y>152</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_20</name>
+    <pv_name>MollerPS13:08:003:VDiff</pv_name>
+    <x>323</x>
+    <y>152</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_21</name>
+    <pv_name>MollerPS13:08:003:I0Set</pv_name>
+    <x>419</x>
+    <y>152</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_22</name>
+    <pv_name>MollerPS13:08:003:IMon</pv_name>
+    <x>496</x>
+    <y>152</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_23</name>
+    <pv_name>MollerPS13:08:003:IDiff</pv_name>
+    <x>573</x>
+    <y>152</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch4</name>
+    <text>4</text>
+    <x>51</x>
+    <y>152</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_4</name>
+    <pv_name>MollerPS13:08:003:Pw</pv_name>
+    <x>96</x>
+    <y>152</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_24</name>
+    <pv_name>MollerPS13:08:004:V0Set</pv_name>
+    <x>169</x>
+    <y>180</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_25</name>
+    <pv_name>MollerPS13:08:004:VMon</pv_name>
+    <x>246</x>
+    <y>180</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_26</name>
+    <pv_name>MollerPS13:08:004:VDiff</pv_name>
+    <x>323</x>
+    <y>180</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_27</name>
+    <pv_name>MollerPS13:08:004:I0Set</pv_name>
+    <x>419</x>
+    <y>180</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_28</name>
+    <pv_name>MollerPS13:08:004:IMon</pv_name>
+    <x>496</x>
+    <y>180</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_29</name>
+    <pv_name>MollerPS13:08:004:IDiff</pv_name>
+    <x>573</x>
+    <y>180</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch5</name>
+    <text>5</text>
+    <x>51</x>
+    <y>180</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_5</name>
+    <pv_name>MollerPS13:08:004:Pw</pv_name>
+    <x>96</x>
+    <y>180</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_30</name>
+    <pv_name>MollerPS13:08:005:V0Set</pv_name>
+    <x>169</x>
+    <y>208</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_31</name>
+    <pv_name>MollerPS13:08:005:VMon</pv_name>
+    <x>246</x>
+    <y>208</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_32</name>
+    <pv_name>MollerPS13:08:005:VDiff</pv_name>
+    <x>323</x>
+    <y>208</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_33</name>
+    <pv_name>MollerPS13:08:005:I0Set</pv_name>
+    <x>419</x>
+    <y>208</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_34</name>
+    <pv_name>MollerPS13:08:005:IMon</pv_name>
+    <x>496</x>
+    <y>208</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_35</name>
+    <pv_name>MollerPS13:08:005:IDiff</pv_name>
+    <x>573</x>
+    <y>208</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch6</name>
+    <text>6</text>
+    <x>51</x>
+    <y>208</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_6</name>
+    <pv_name>MollerPS13:08:005:Pw</pv_name>
+    <x>96</x>
+    <y>208</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_36</name>
+    <pv_name>MollerPS13:08:006:V0Set</pv_name>
+    <x>169</x>
+    <y>236</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_37</name>
+    <pv_name>MollerPS13:08:006:VMon</pv_name>
+    <x>246</x>
+    <y>236</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_38</name>
+    <pv_name>MollerPS13:08:006:VDiff</pv_name>
+    <x>323</x>
+    <y>236</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_39</name>
+    <pv_name>MollerPS13:08:006:I0Set</pv_name>
+    <x>419</x>
+    <y>236</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_40</name>
+    <pv_name>MollerPS13:08:006:IMon</pv_name>
+    <x>496</x>
+    <y>236</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_41</name>
+    <pv_name>MollerPS13:08:006:IDiff</pv_name>
+    <x>573</x>
+    <y>236</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch7</name>
+    <text>7</text>
+    <x>51</x>
+    <y>236</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_7</name>
+    <pv_name>MollerPS13:08:006:Pw</pv_name>
+    <x>96</x>
+    <y>236</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_42</name>
+    <pv_name>MollerPS13:08:007:V0Set</pv_name>
+    <x>169</x>
+    <y>264</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_43</name>
+    <pv_name>MollerPS13:08:007:VMon</pv_name>
+    <x>246</x>
+    <y>264</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_44</name>
+    <pv_name>MollerPS13:08:007:VDiff</pv_name>
+    <x>323</x>
+    <y>264</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_45</name>
+    <pv_name>MollerPS13:08:007:I0Set</pv_name>
+    <x>419</x>
+    <y>264</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_46</name>
+    <pv_name>MollerPS13:08:007:IMon</pv_name>
+    <x>496</x>
+    <y>264</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_47</name>
+    <pv_name>MollerPS13:08:007:IDiff</pv_name>
+    <x>573</x>
+    <y>264</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch8</name>
+    <text>8</text>
+    <x>51</x>
+    <y>264</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_8</name>
+    <pv_name>MollerPS13:08:007:Pw</pv_name>
+    <x>96</x>
+    <y>264</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_48</name>
+    <pv_name>MollerPS13:09:000:V0Set</pv_name>
+    <x>169</x>
+    <y>292</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_49</name>
+    <pv_name>MollerPS13:09:000:VMon</pv_name>
+    <x>246</x>
+    <y>292</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_50</name>
+    <pv_name>MollerPS13:09:000:VDiff</pv_name>
+    <x>323</x>
+    <y>292</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_51</name>
+    <pv_name>MollerPS13:09:000:I0Set</pv_name>
+    <x>419</x>
+    <y>292</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_52</name>
+    <pv_name>MollerPS13:09:000:IMon</pv_name>
+    <x>496</x>
+    <y>292</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_53</name>
+    <pv_name>MollerPS13:09:000:IDiff</pv_name>
+    <x>573</x>
+    <y>292</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch9</name>
+    <text>9</text>
+    <x>51</x>
+    <y>292</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_9</name>
+    <pv_name>MollerPS13:09:000:Pw</pv_name>
+    <x>96</x>
+    <y>292</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_54</name>
+    <pv_name>MollerPS13:09:001:V0Set</pv_name>
+    <x>169</x>
+    <y>320</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_55</name>
+    <pv_name>MollerPS13:09:001:VMon</pv_name>
+    <x>246</x>
+    <y>320</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_56</name>
+    <pv_name>MollerPS13:09:001:VDiff</pv_name>
+    <x>323</x>
+    <y>320</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_57</name>
+    <pv_name>MollerPS13:09:001:I0Set</pv_name>
+    <x>419</x>
+    <y>320</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_58</name>
+    <pv_name>MollerPS13:09:001:IMon</pv_name>
+    <x>496</x>
+    <y>320</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_59</name>
+    <pv_name>MollerPS13:09:001:IDiff</pv_name>
+    <x>573</x>
+    <y>320</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch10</name>
+    <text>10</text>
+    <x>51</x>
+    <y>320</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_10</name>
+    <pv_name>MollerPS13:09:001:Pw</pv_name>
+    <x>96</x>
+    <y>320</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_60</name>
+    <pv_name>MollerPS13:09:002:V0Set</pv_name>
+    <x>169</x>
+    <y>348</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_61</name>
+    <pv_name>MollerPS13:09:002:VMon</pv_name>
+    <x>246</x>
+    <y>348</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_62</name>
+    <pv_name>MollerPS13:09:002:VDiff</pv_name>
+    <x>323</x>
+    <y>348</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_63</name>
+    <pv_name>MollerPS13:09:002:I0Set</pv_name>
+    <x>419</x>
+    <y>348</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_64</name>
+    <pv_name>MollerPS13:09:002:IMon</pv_name>
+    <x>496</x>
+    <y>348</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_65</name>
+    <pv_name>MollerPS13:09:002:IDiff</pv_name>
+    <x>573</x>
+    <y>348</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch11</name>
+    <text>11</text>
+    <x>51</x>
+    <y>348</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_11</name>
+    <pv_name>MollerPS13:09:002:Pw</pv_name>
+    <x>96</x>
+    <y>348</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_66</name>
+    <pv_name>MollerPS13:09:003:V0Set</pv_name>
+    <x>169</x>
+    <y>376</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_67</name>
+    <pv_name>MollerPS13:09:003:VMon</pv_name>
+    <x>246</x>
+    <y>376</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_68</name>
+    <pv_name>MollerPS13:09:003:VDiff</pv_name>
+    <x>323</x>
+    <y>376</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_69</name>
+    <pv_name>MollerPS13:09:003:I0Set</pv_name>
+    <x>419</x>
+    <y>376</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_70</name>
+    <pv_name>MollerPS13:09:003:IMon</pv_name>
+    <x>496</x>
+    <y>376</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_71</name>
+    <pv_name>MollerPS13:09:003:IDiff</pv_name>
+    <x>573</x>
+    <y>376</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch12</name>
+    <text>12</text>
+    <x>51</x>
+    <y>376</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_12</name>
+    <pv_name>MollerPS13:09:003:Pw</pv_name>
+    <x>96</x>
+    <y>376</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_72</name>
+    <pv_name>MollerPS13:09:004:V0Set</pv_name>
+    <x>169</x>
+    <y>404</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_73</name>
+    <pv_name>MollerPS13:09:004:VMon</pv_name>
+    <x>246</x>
+    <y>404</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_74</name>
+    <pv_name>MollerPS13:09:004:VDiff</pv_name>
+    <x>323</x>
+    <y>404</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_75</name>
+    <pv_name>MollerPS13:09:004:I0Set</pv_name>
+    <x>419</x>
+    <y>404</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_76</name>
+    <pv_name>MollerPS13:09:004:IMon</pv_name>
+    <x>496</x>
+    <y>404</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_77</name>
+    <pv_name>MollerPS13:09:004:IDiff</pv_name>
+    <x>573</x>
+    <y>404</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch13</name>
+    <text>13</text>
+    <x>51</x>
+    <y>404</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_13</name>
+    <pv_name>MollerPS13:09:004:Pw</pv_name>
+    <x>96</x>
+    <y>404</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_78</name>
+    <pv_name>MollerPS13:09:005:V0Set</pv_name>
+    <x>169</x>
+    <y>432</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_79</name>
+    <pv_name>MollerPS13:09:005:VMon</pv_name>
+    <x>246</x>
+    <y>432</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_80</name>
+    <pv_name>MollerPS13:09:005:VDiff</pv_name>
+    <x>323</x>
+    <y>432</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_81</name>
+    <pv_name>MollerPS13:09:005:I0Set</pv_name>
+    <x>419</x>
+    <y>432</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_82</name>
+    <pv_name>MollerPS13:09:005:IMon</pv_name>
+    <x>496</x>
+    <y>432</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_83</name>
+    <pv_name>MollerPS13:09:005:IDiff</pv_name>
+    <x>573</x>
+    <y>432</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch14</name>
+    <text>14</text>
+    <x>51</x>
+    <y>432</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_14</name>
+    <pv_name>MollerPS13:09:005:Pw</pv_name>
+    <x>96</x>
+    <y>432</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_84</name>
+    <pv_name>MollerPS13:09:006:V0Set</pv_name>
+    <x>169</x>
+    <y>460</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_85</name>
+    <pv_name>MollerPS13:09:006:VMon</pv_name>
+    <x>246</x>
+    <y>460</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_86</name>
+    <pv_name>MollerPS13:09:006:VDiff</pv_name>
+    <x>323</x>
+    <y>460</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_87</name>
+    <pv_name>MollerPS13:09:006:I0Set</pv_name>
+    <x>419</x>
+    <y>460</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_88</name>
+    <pv_name>MollerPS13:09:006:IMon</pv_name>
+    <x>496</x>
+    <y>460</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_89</name>
+    <pv_name>MollerPS13:09:006:IDiff</pv_name>
+    <x>573</x>
+    <y>460</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch15</name>
+    <text>15</text>
+    <x>51</x>
+    <y>460</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_15</name>
+    <pv_name>MollerPS13:09:006:Pw</pv_name>
+    <x>96</x>
+    <y>460</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_90</name>
+    <pv_name>MollerPS13:09:007:V0Set</pv_name>
+    <x>169</x>
+    <y>488</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_91</name>
+    <pv_name>MollerPS13:09:007:VMon</pv_name>
+    <x>246</x>
+    <y>488</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_92</name>
+    <pv_name>MollerPS13:09:007:VDiff</pv_name>
+    <x>323</x>
+    <y>488</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_93</name>
+    <pv_name>MollerPS13:09:007:I0Set</pv_name>
+    <x>419</x>
+    <y>488</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_94</name>
+    <pv_name>MollerPS13:09:007:IMon</pv_name>
+    <x>496</x>
+    <y>488</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_95</name>
+    <pv_name>MollerPS13:09:007:IDiff</pv_name>
+    <x>573</x>
+    <y>488</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch16</name>
+    <text>16</text>
+    <x>51</x>
+    <y>488</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_16</name>
+    <pv_name>MollerPS13:09:007:Pw</pv_name>
+    <x>96</x>
+    <y>488</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_96</name>
+    <pv_name>MollerPS13:08:000:V0Set</pv_name>
+    <x>169</x>
+    <y>516</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_97</name>
+    <pv_name>MollerPS13:08:000:VMon</pv_name>
+    <x>246</x>
+    <y>516</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_98</name>
+    <pv_name>MollerPS13:08:000:VDiff</pv_name>
+    <x>323</x>
+    <y>516</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_99</name>
+    <pv_name>MollerPS13:08:000:I0Set</pv_name>
+    <x>419</x>
+    <y>516</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_100</name>
+    <pv_name>MollerPS13:08:000:IMon</pv_name>
+    <x>496</x>
+    <y>516</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_101</name>
+    <pv_name>MollerPS13:08:000:IDiff</pv_name>
+    <x>573</x>
+    <y>516</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch17</name>
+    <text>17</text>
+    <x>51</x>
+    <y>516</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_17</name>
+    <pv_name>MollerPS13:08:000:Pw</pv_name>
+    <x>96</x>
+    <y>516</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_102</name>
+    <pv_name>MollerPS13:08:001:V0Set</pv_name>
+    <x>169</x>
+    <y>544</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_103</name>
+    <pv_name>MollerPS13:08:001:VMon</pv_name>
+    <x>246</x>
+    <y>544</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_104</name>
+    <pv_name>MollerPS13:08:001:VDiff</pv_name>
+    <x>323</x>
+    <y>544</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_105</name>
+    <pv_name>MollerPS13:08:001:I0Set</pv_name>
+    <x>419</x>
+    <y>544</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_106</name>
+    <pv_name>MollerPS13:08:001:IMon</pv_name>
+    <x>496</x>
+    <y>544</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_107</name>
+    <pv_name>MollerPS13:08:001:IDiff</pv_name>
+    <x>573</x>
+    <y>544</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch18</name>
+    <text>18</text>
+    <x>51</x>
+    <y>544</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_18</name>
+    <pv_name>MollerPS13:08:001:Pw</pv_name>
+    <x>96</x>
+    <y>544</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_108</name>
+    <pv_name>MollerPS13:08:002:V0Set</pv_name>
+    <x>169</x>
+    <y>572</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_109</name>
+    <pv_name>MollerPS13:08:002:VMon</pv_name>
+    <x>246</x>
+    <y>572</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_110</name>
+    <pv_name>MollerPS13:08:002:VDiff</pv_name>
+    <x>323</x>
+    <y>572</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_111</name>
+    <pv_name>MollerPS13:08:002:I0Set</pv_name>
+    <x>419</x>
+    <y>572</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_112</name>
+    <pv_name>MollerPS13:08:002:IMon</pv_name>
+    <x>496</x>
+    <y>572</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_113</name>
+    <pv_name>MollerPS13:08:002:IDiff</pv_name>
+    <x>573</x>
+    <y>572</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch19</name>
+    <text>19</text>
+    <x>51</x>
+    <y>572</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_19</name>
+    <pv_name>MollerPS13:08:002:Pw</pv_name>
+    <x>96</x>
+    <y>572</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_114</name>
+    <pv_name>MollerPS13:08:003:V0Set</pv_name>
+    <x>169</x>
+    <y>600</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_115</name>
+    <pv_name>MollerPS13:08:003:VMon</pv_name>
+    <x>246</x>
+    <y>600</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_116</name>
+    <pv_name>MollerPS13:08:003:VDiff</pv_name>
+    <x>323</x>
+    <y>600</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_117</name>
+    <pv_name>MollerPS13:08:003:I0Set</pv_name>
+    <x>419</x>
+    <y>600</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_118</name>
+    <pv_name>MollerPS13:08:003:IMon</pv_name>
+    <x>496</x>
+    <y>600</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_119</name>
+    <pv_name>MollerPS13:08:003:IDiff</pv_name>
+    <x>573</x>
+    <y>600</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch20</name>
+    <text>20</text>
+    <x>51</x>
+    <y>600</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_20</name>
+    <pv_name>MollerPS13:08:003:Pw</pv_name>
+    <x>96</x>
+    <y>600</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_120</name>
+    <pv_name>MollerPS13:08:004:V0Set</pv_name>
+    <x>169</x>
+    <y>628</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_121</name>
+    <pv_name>MollerPS13:08:004:VMon</pv_name>
+    <x>246</x>
+    <y>628</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_122</name>
+    <pv_name>MollerPS13:08:004:VDiff</pv_name>
+    <x>323</x>
+    <y>628</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_123</name>
+    <pv_name>MollerPS13:08:004:I0Set</pv_name>
+    <x>419</x>
+    <y>628</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_124</name>
+    <pv_name>MollerPS13:08:004:IMon</pv_name>
+    <x>496</x>
+    <y>628</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_125</name>
+    <pv_name>MollerPS13:08:004:IDiff</pv_name>
+    <x>573</x>
+    <y>628</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch21</name>
+    <text>21</text>
+    <x>51</x>
+    <y>628</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_21</name>
+    <pv_name>MollerPS13:08:004:Pw</pv_name>
+    <x>96</x>
+    <y>628</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_126</name>
+    <pv_name>MollerPS13:08:005:V0Set</pv_name>
+    <x>169</x>
+    <y>656</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_127</name>
+    <pv_name>MollerPS13:08:005:VMon</pv_name>
+    <x>246</x>
+    <y>656</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_128</name>
+    <pv_name>MollerPS13:08:005:VDiff</pv_name>
+    <x>323</x>
+    <y>656</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_129</name>
+    <pv_name>MollerPS13:08:005:I0Set</pv_name>
+    <x>419</x>
+    <y>656</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_130</name>
+    <pv_name>MollerPS13:08:005:IMon</pv_name>
+    <x>496</x>
+    <y>656</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_131</name>
+    <pv_name>MollerPS13:08:005:IDiff</pv_name>
+    <x>573</x>
+    <y>656</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch22</name>
+    <text>22</text>
+    <x>51</x>
+    <y>656</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_22</name>
+    <pv_name>MollerPS13:08:005:Pw</pv_name>
+    <x>96</x>
+    <y>656</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_132</name>
+    <pv_name>MollerPS13:08:006:V0Set</pv_name>
+    <x>169</x>
+    <y>684</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_133</name>
+    <pv_name>MollerPS13:08:006:VMon</pv_name>
+    <x>246</x>
+    <y>684</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_134</name>
+    <pv_name>MollerPS13:08:006:VDiff</pv_name>
+    <x>323</x>
+    <y>684</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_135</name>
+    <pv_name>MollerPS13:08:006:I0Set</pv_name>
+    <x>419</x>
+    <y>684</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_136</name>
+    <pv_name>MollerPS13:08:006:IMon</pv_name>
+    <x>496</x>
+    <y>684</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_137</name>
+    <pv_name>MollerPS13:08:006:IDiff</pv_name>
+    <x>573</x>
+    <y>684</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch23</name>
+    <text>23</text>
+    <x>51</x>
+    <y>684</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_23</name>
+    <pv_name>MollerPS13:08:006:Pw</pv_name>
+    <x>96</x>
+    <y>684</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_138</name>
+    <pv_name>MollerPS13:08:007:V0Set</pv_name>
+    <x>169</x>
+    <y>712</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_139</name>
+    <pv_name>MollerPS13:08:007:VMon</pv_name>
+    <x>246</x>
+    <y>712</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_140</name>
+    <pv_name>MollerPS13:08:007:VDiff</pv_name>
+    <x>323</x>
+    <y>712</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_141</name>
+    <pv_name>MollerPS13:08:007:I0Set</pv_name>
+    <x>419</x>
+    <y>712</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_142</name>
+    <pv_name>MollerPS13:08:007:IMon</pv_name>
+    <x>496</x>
+    <y>712</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_143</name>
+    <pv_name>MollerPS13:08:007:IDiff</pv_name>
+    <x>573</x>
+    <y>712</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch24</name>
+    <text>24</text>
+    <x>51</x>
+    <y>712</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_24</name>
+    <pv_name>MollerPS13:08:007:Pw</pv_name>
+    <x>96</x>
+    <y>712</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_144</name>
+    <pv_name>MollerPS13:09:000:V0Set</pv_name>
+    <x>169</x>
+    <y>740</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_145</name>
+    <pv_name>MollerPS13:09:000:VMon</pv_name>
+    <x>246</x>
+    <y>740</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_146</name>
+    <pv_name>MollerPS13:09:000:VDiff</pv_name>
+    <x>323</x>
+    <y>740</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_147</name>
+    <pv_name>MollerPS13:09:000:I0Set</pv_name>
+    <x>419</x>
+    <y>740</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_148</name>
+    <pv_name>MollerPS13:09:000:IMon</pv_name>
+    <x>496</x>
+    <y>740</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_149</name>
+    <pv_name>MollerPS13:09:000:IDiff</pv_name>
+    <x>573</x>
+    <y>740</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch25</name>
+    <text>25</text>
+    <x>51</x>
+    <y>740</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_25</name>
+    <pv_name>MollerPS13:09:000:Pw</pv_name>
+    <x>96</x>
+    <y>740</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_150</name>
+    <pv_name>MollerPS13:09:001:V0Set</pv_name>
+    <x>169</x>
+    <y>768</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_151</name>
+    <pv_name>MollerPS13:09:001:VMon</pv_name>
+    <x>246</x>
+    <y>768</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_152</name>
+    <pv_name>MollerPS13:09:001:VDiff</pv_name>
+    <x>323</x>
+    <y>768</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_153</name>
+    <pv_name>MollerPS13:09:001:I0Set</pv_name>
+    <x>419</x>
+    <y>768</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_154</name>
+    <pv_name>MollerPS13:09:001:IMon</pv_name>
+    <x>496</x>
+    <y>768</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_155</name>
+    <pv_name>MollerPS13:09:001:IDiff</pv_name>
+    <x>573</x>
+    <y>768</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch26</name>
+    <text>26</text>
+    <x>51</x>
+    <y>768</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_26</name>
+    <pv_name>MollerPS13:09:001:Pw</pv_name>
+    <x>96</x>
+    <y>768</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_156</name>
+    <pv_name>MollerPS13:09:002:V0Set</pv_name>
+    <x>169</x>
+    <y>796</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_157</name>
+    <pv_name>MollerPS13:09:002:VMon</pv_name>
+    <x>246</x>
+    <y>796</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_158</name>
+    <pv_name>MollerPS13:09:002:VDiff</pv_name>
+    <x>323</x>
+    <y>796</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_159</name>
+    <pv_name>MollerPS13:09:002:I0Set</pv_name>
+    <x>419</x>
+    <y>796</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_160</name>
+    <pv_name>MollerPS13:09:002:IMon</pv_name>
+    <x>496</x>
+    <y>796</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_161</name>
+    <pv_name>MollerPS13:09:002:IDiff</pv_name>
+    <x>573</x>
+    <y>796</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch27</name>
+    <text>27</text>
+    <x>51</x>
+    <y>796</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_27</name>
+    <pv_name>MollerPS13:09:002:Pw</pv_name>
+    <x>96</x>
+    <y>796</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_162</name>
+    <pv_name>MollerPS13:09:003:V0Set</pv_name>
+    <x>169</x>
+    <y>824</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_163</name>
+    <pv_name>MollerPS13:09:003:VMon</pv_name>
+    <x>246</x>
+    <y>824</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_164</name>
+    <pv_name>MollerPS13:09:003:VDiff</pv_name>
+    <x>323</x>
+    <y>824</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_165</name>
+    <pv_name>MollerPS13:09:003:I0Set</pv_name>
+    <x>419</x>
+    <y>824</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_166</name>
+    <pv_name>MollerPS13:09:003:IMon</pv_name>
+    <x>496</x>
+    <y>824</y>
+    <width>52</width>
+    <height>28</height>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="textupdate" version="2.0.0">
+    <name>Text Entry_167</name>
+    <pv_name>MollerPS13:09:003:IDiff</pv_name>
+    <x>573</x>
+    <y>824</y>
+    <width>52</width>
+    <height>28</height>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>  <widget type="label" version="2.0.0">
+    <name>Label_ch28</name>
+    <text>28</text>
+    <x>51</x>
+    <y>824</y>
+    <width>52</width>
+    <height>28</height>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+  </widget>  <widget type="bool_button" version="2.0.0">
+    <name>Boolean_Button_28</name>
+    <pv_name>MollerPS13:09:003:Pw</pv_name>
+    <x>96</x>
+    <y>824</y>
+    <width>52</width>
+    <height>26</height>
+    <off_color>
+     <color name="STOP" red="255" green="0" blue="0">
+     </color>
+    </off_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget></display>
