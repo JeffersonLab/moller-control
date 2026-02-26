@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Main Detector LV Table</name>
+  <width>810</width>
+  <height>610</height>
+  <widget type="navtabs" version="2.0.0">
+    <name>Navigation Tabs</name>
+    <tabs>
+      <tab>
+        <name>Seg 0-1</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>0</seg1>
+          <seg2>1</seg2>
+          <cr1>1</cr1>
+          <sl1>08</sl1>
+          <cr2>1</cr2>
+          <sl2>09</sl2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 2-3</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>2</seg1>
+          <seg2>3</seg2>
+          <cr1>1</cr1>
+          <cr2>1</cr2>
+          <sl1>05</sl1>
+          <sl2>06</sl2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 4-5</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>4</seg1>
+          <seg2>5</seg2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 6-7</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>6</seg1>
+          <seg2>7</seg2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 8-9</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>8</seg1>
+          <seg2>9</seg2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 10-11</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>10</seg1>
+          <seg2>11</seg2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 12-13</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>12</seg1>
+          <seg2>13</seg2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 14-15</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>14</seg1>
+          <seg2>15</seg2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 16-17</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>16</seg1>
+          <seg2>17</seg2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 18-19</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>18</seg1>
+          <seg2>19</seg2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 20-21</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>20</seg1>
+          <seg2>21</seg2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 22-23</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>22</seg1>
+          <seg2>23</seg2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 24-25</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>24</seg1>
+          <seg2>25</seg2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+      <tab>
+        <name>Seg 26-27</name>
+        <file>seg_table_MD.bob</file>
+        <macros>
+          <seg1>26</seg1>
+          <seg2>27</seg2>
+        </macros>
+        <group_name></group_name>
+      </tab>
+    </tabs>
+    <y>10</y>
+    <width>820</width>
+    <height>590</height>
+    <tab_height>40</tab_height>
+    <selected_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </selected_color>
+    <deselected_color>
+      <color name="Read_Background" red="240" green="240" blue="240">
+      </color>
+    </deselected_color>
+  </widget>
+</display>
